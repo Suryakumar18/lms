@@ -1,0 +1,212 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 99.3%;
+  height: 100vh;
+}
+
+
+.AppHeader{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgb(0,0,0,0.15);
+}
+
+
+
+.AppFooter{
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgb(0,0,0,0.15);
+
+}
+
+
+.SideMenue{
+  background-color: #363a41;
+}
+
+.PageContent{
+
+}
+.SideMenuAndPageContent{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 500;
+}
+
+
+.Login{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+
+
+/* 
+
+.ant-table-cell{
+  background: #c8d6e5;
+}
+
+.ant-table-thead tr th{
+  background: #333334 !important;
+  color: white !important;
+} */
+
+
+
+
+
+
+
+
+
+.CourseForm{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background: white !important;
+}
+
+
+.Coursequestion{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: white !important;
+}
+
+
+/* 
+codemirror styles */
+
+.top-pane {
+  background-color: hsl(225, 6%, 25%);
+}
+
+.pane {
+  height: 50vh;
+  display: flex;
+}
+
+.editor-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background-color: hsl(225, 6%, 25%);
+}
+
+/* To collapse the editor size */
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+/* To make the collapse same even when there is some content */
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  
+}
+
+.editor-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225, 6%, 13%);
+  color: #ffffff;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+.CodeMirror {
+  height: 100% !important;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.expand-collapse-btn {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.c{
+  color: rgba(39, 37, 37, 0.353);
+}
+
+
+
+
+
+/* formaddcourse */
+
+input,select{
+  border: none;
+  box-shadow: 0px 0px 10px rgba(67,65,65,.4);
+  font-size: 1.2rem;
+  padding: 4px;
+  margin: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid transparent;
+
+}
+
+input:focus-within{
+  border: 2px solid aqua;
+}
+
+input:focus{
+  text-decoration: none;
+}
+
+.App1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media (min-width: 276px) {
+  .modal-dialog {
+  min-width: 900px;
+  margin: 1.75rem auto;
+  }
+  }
